@@ -13,7 +13,7 @@ Tout d'abord cloner ce repository pour le frontend
 
 Ensuite cloner ce repository pour le backend
 
-`git clone https://github.com/Maxwell-gith/MaximeHery_6_17092021`
+`git clone https://github.com/Medhiben/Piiquante.git'
 
 Ajouter un dossier nommé "images" dans le backend
 
