@@ -45,5 +45,5 @@ Démarrer le frontend
 
 `npm start`
 
-### Bonne visite!
+### J'espère que vous avez pris du plaisir à visiter mon application, Bon courage!
 
