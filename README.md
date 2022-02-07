@@ -5,7 +5,7 @@ Construction d'une API en backend pour le site HOT TAKES qui est une galerie de 
 
 Le front-end de l'application a été développé au préalable et a été précompilé après des tests internes, le but étant donc de mettre en place une API qui correspond aux spécifications fournis dans le cahier des charges.
 
-<img src="/P6_RAMDANI_MEDHI/backend/Screenshot-siteweb.png" alt="photo du site"/>
+<img src="P6_RAMDANI_MEDHI/backend/Screenshot-siteweb.png" alt="photo du site"/>
 
 
 
