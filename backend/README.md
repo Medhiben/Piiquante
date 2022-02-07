@@ -1,5 +1,5 @@
 # Piiquante The Hottest Reviews
-<img src="/P6_RAMDANI_MEDHI/backend/Screenshot.png" alt="photo du site"/>
+<img src="../backend/Screenshot.png" alt="photo du site"/>
 
 # Introduction/Présentation
 
@@ -25,7 +25,7 @@ Tout d'abord cloner ce repository pour le frontend
 
 Ensuite cloner ce repository pour le backend
 
-`git clone https://github.com/Medhiben/Piiquante.git'
+`git clone https://github.com/Medhiben/Piiquante.git`
 
 Ajouter un dossier nommé "images" dans le backend
 
