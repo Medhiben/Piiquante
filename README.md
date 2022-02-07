@@ -1,5 +1,7 @@
-# Piiquante
-- Introduction/Présentation
+# Piiquante The Hottest Reviews
+<img src="../backend/Screenshot.png" alt="photo du site"/>
+
+# Introduction/Présentation
 
 Piiquante se dédie à la création de sauces épicées dont les recettes sont gardées secrètes. 
 Pour tirer parti de son succès et générer davantage de buzz, l'entreprise souhaite créer une application web dans laquelle les utilisateurs peuvent ajouter leurs sauces préférées et liker ou disliker les sauces ajoutées par les autres.
@@ -9,30 +11,35 @@ Construction d'une API en backend pour le site HOT TAKES qui est une galerie de 
 
 Le front-end de l'application a été développé au préalable et a été précompilé après des tests internes, le but étant donc de mettre en place une API qui correspond aux spécifications fournis dans le cahier des charges.
 
-<img src="../P6_RAMDANI_MEDHI/backend/images/Screenshot.png" alt="photo du site"/>
-
-- Cahier des charges
 
 
 
-- Installation
+## Ce projet est basé sur la création du backend pour un site de critiques de sauces piquantes.
+J'ai utilisé Node.js accompagné du framework Express.js ainsi que divers packages.
 
-Tout d'abord clonez le repo de l'API dans un dossier backend, puis faire de même pour le repo frontend dont le lien est fourni ci dessus dans un dossier frontend, les deux séparément dans votre dossier principal comme ceci : dossierPrincipal/backend & dossierPrincipal/frontend
+## Pour que cela fonctionne chez vous, voici le guide d'installation:
 
-pour lancer le frontend mettez vous dans le dossier et suivez les instructions données dans le repo en question
+Tout d'abord cloner ce repository pour le frontend
 
-pour lancer le backend naviguez jusqu'au répertoire puis ouvrir un terminal et exécutez les commandes suivantes :
+`git clone https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6`
 
-> npm install
-Cela installe les dépendences.
+Ensuite cloner ce repository pour le backend
 
-Pour démarrer l'API exécuter la commande suivante :
+`git clone https://github.com/Medhiben/Piiquante.git`
 
-> nodemon server
+Ajouter un dossier nommé "images" dans le backend
 
+Démarrer le serveur sur le dossier backend
 
+`cd backend` 
 
+`nodemon server`
 
+Démarrer le frontend
 
+`cd frontend`
 
+`npm start`
+
+### Bonne visite!
 
