@@ -11,6 +11,10 @@ Construction d'une API en backend pour le site HOT TAKES qui est une galerie de 
 
 Le front-end de l'application a été développé au préalable et a été précompilé après des tests internes, le but étant donc de mettre en place une API qui correspond aux spécifications fournis dans le cahier des charges.
 
+# Spécifications du projet
+
+[Lien des Spécifications-P6](https://s3.eu-west-1.amazonaws.com/course.oc-static.com/projects/DWJ_FR_P6/Requirements_DW_P6.pdf) !
+
 
 
 
