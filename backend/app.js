@@ -28,7 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 // Conversion en JSON
-app.use(express.json()); 
+app.use(express.json());
 
 // Gestion des images
 app.use('/images', express.static(path.join(__dirname, 'images')));

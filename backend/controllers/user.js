@@ -3,6 +3,7 @@ const bcrypt = require('bcrypt');
 const validator = require('email-validator');
 const user = require('../models/user');
 
+// Fonction pour s'inscrire pour le User
 exports.signup = (req, res, next) => {
     if(!validator.validate(req.body.email))return res.status(403).json({message: 'Le format de l\'adresse mail est incorrect.'})
     if(req.body.password.length > 8) {
@@ -20,6 +21,7 @@ exports.signup = (req, res, next) => {
     } else return res.status(403).json({message: 'Votre mot de passe doit contenir 8 caractères minimum.'})
 };
 
+// Fonction pour se connecter pour le User 
 exports.login = (req, res, next) => {
     user.findOne({ email: req.body.email })
         .then(myUser => {

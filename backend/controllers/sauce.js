@@ -49,13 +49,13 @@ exports.deleteSauce = (req, res, next) => {
         })
 };
 
-// Like/dislike sauce
+// Like/dislike une sauce
 exports.rateSauce = (req, res, next) => {
     let like = req.body.like
     let userId = req.body.userId
     let sauceId = req.params.id
 
-    // Like
+    //  Partie Like une sauce
     if(like == 1) {
         Sauce.findOne({ _id: sauceId }) 
             .then((sauce) => {
@@ -79,7 +79,7 @@ exports.rateSauce = (req, res, next) => {
         .catch((error) => res.status(400).json({ error }));
     }
 
-    // Dislike
+    // Partie Dislike une sauce
     if(like === -1) {
         Sauce.findOne({ _id: sauceId })
         .then((sauce) => {
@@ -98,7 +98,7 @@ exports.rateSauce = (req, res, next) => {
         .catch((error) => res.status(400).json({ error }));
     }
 
-    // Annulation Like ou Dislike
+    // Annulation Like ou Dislike une sauce
     if(like===0) {
         // On retrouve la sauce
         Sauce.findOne({ _id: sauceId })
