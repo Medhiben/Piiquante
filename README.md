@@ -43,7 +43,7 @@ Démarrer le frontend
 
 `cd frontend`
 
-`npm start`
+`npm run start`
 
 ### J'espère que vous avez pris du plaisir à visiter mon application, Bon courage!
 
