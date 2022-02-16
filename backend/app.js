@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const helmet = require('helmet');
+const mongoSanitize = require("express-mongo-sanitize");
+const morgan = require("morgan");
 const rateLimit = require('express-rate-limit');
 require('dotenv').config();
 
@@ -44,6 +46,10 @@ const limiter = rateLimit({
 });
 
 app.use(limiter);
+
+// Sécurité 
+app.use(mongoSanitize()); // Mongo sanitize to sanitizes inputs against query selector injection attacks
+app.use(morgan("combined")); // Morgan middleware to create logs
 
 // Lancement des routes
 app.use('/api/sauces', sauceRoutes);
