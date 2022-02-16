@@ -19,7 +19,7 @@ mongoose.connect(`mongodb+srv://Burdy:JESUSCHRIST@cluster0.vv6uz.mongodb.net/clu
   .then(() => console.log('Connexion à MongoDB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));
   
-// Lancement de express
+// Pour créer une application Express, appelez simplement la méthode  express()
 const app = express();
 
 // Headers CORS
@@ -48,8 +48,8 @@ const limiter = rateLimit({
 app.use(limiter);
 
 // Sécurité 
-app.use(mongoSanitize()); // Mongo sanitize to sanitizes inputs against query selector injection attacks
-app.use(morgan("combined")); // Morgan middleware to create logs
+app.use(mongoSanitize()); // Mongo sanitize pour assainir les entrées contre les attaques par injection
+app.use(morgan("combined")); // Morgan middleware pour creer des logs
 
 // Lancement des routes
 app.use('/api/sauces', sauceRoutes);
