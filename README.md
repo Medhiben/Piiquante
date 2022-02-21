@@ -23,25 +23,6 @@ J'ai utilisé Node.js accompagné du framework Express.js ainsi que divers packa
 
 ## Pour que cela fonctionne chez vous, voici le guide d'installation:
 
-Tout d'abord cloner ce repository pour le frontend
-
-`git clone https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6`
-
-Voici les dépendances que vous devez installer dans le frontend:
-
-- NodeJS 12.14 ou 14.0.
-- Angular CLI 7.0.2
-- node-sass : assurez-vous d'utiliser la version correspondante à NodeJS.Pour Node 14.0 par exemple, vous avez besoin de node-sass dans la version 4.14+.
-Sous Windows, ces installations nécessitent d'utiliser PowerShell en mode administrateur.
-
-Ensuite, clonez ce référentiel, exécutez `npm install` et exécutez `npm install --save-dev run-script-os`.
-
-Ensuite cloner ce repository pour le backend
-
-`git clone https://github.com/Medhiben/Piiquante.git`
-
-Ajouter un dossier nommé "images" dans le backend
-
 Démarrer le serveur sur le dossier backend
 
 `cd backend` 
